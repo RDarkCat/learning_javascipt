@@ -10,9 +10,13 @@ var farenheit = 0.0;
 
 celsius = +prompt('Введите градусы Цельсия:');
 
-farenheit = (9 / 5) * celsius + 32;
+if (isNaN(celsius)) {
+    alert('Введите число.');
+} else {
+    farenheit = (9 / 5) * celsius + 32;
 
-alert('Температура ' + celsius + ' по Цельсию в Фаренгейтах будет равна ' + farenheit);
+    alert('Температура ' + celsius + ' по Цельсию в Фаренгейтах будет равна ' + farenheit);
 
-// debug console
-console.log('Значение переменной farenheit: ' + farenheit);
+    // debug console
+    console.log('Значение переменной farenheit: ' + farenheit);
+}
