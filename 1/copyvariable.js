@@ -6,10 +6,10 @@
 'use strict';
 
 var admin = null;
-var name = null;
+var userName = null;
 
-name = 'Василий';
+userName = 'Василий';
 
-admin = name;
+admin = userName;
 
-console.log('В переменной admin содержится значение: ' + admin);
+console.log(`В переменной admin содержится значение: ${admin}`);

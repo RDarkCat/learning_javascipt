@@ -10,4 +10,4 @@
 
 var stringNumberConcatenation = 1000 + '108';
 
-console.log('Операция сложения 1000 и строки \'108\' равняется строке ' + stringNumberConcatenation);
+console.log(`Операция сложения 1000 и строки '108' равняется строке ${stringNumberConcatenation}`);
