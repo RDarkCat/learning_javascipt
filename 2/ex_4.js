@@ -15,48 +15,33 @@ console.log('a = ' + number);
 
 switch(number) {
   case 1:
-    console.log('Numbers from ' + number + ' to 15 are 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15');
-    break;
+    console.log(number++);
   case 2:
-    console.log('Numbers from ' + number + ' to 15 are 2 3 4 5 6 7 8 9 10 11 12 13 14 15');
-    break;
+    console.log(number++);
   case 3:
-    console.log('Numbers from ' + number + ' to 15 are 3 4 5 6 7 8 9 10 11 12 13 14 15');
-    break;
+    console.log(number++);
   case 4:
-    console.log('Numbers from ' + number + ' to 15 are 4 5 6 7 8 9 10 11 12 13 14 15');
-    break;
+    console.log(number++);
   case 5:
-    console.log('Numbers from ' + number + ' to 15 are 5 6 7 8 9 10 11 12 13 14 15');
-    break;
+    console.log(number++);
   case 6:
-    console.log('Numbers from ' + number + ' to 15 are 6 7 8 9 10 11 12 13 14 15');
-    break;
+    console.log(number++);
   case 7:
-    console.log('Numbers from ' + number + ' to 15 are 7 8 9 10 11 12 13 14 15');
-    break;
+    console.log(number++);
   case 8:
-    console.log('Numbers from ' + number + ' to 15 are 8 9 10 11 12 13 14 15');
-    break;
+    console.log(number++);
   case 9:
-    console.log('Numbers from ' + number + ' to 15 are 9 10 11 12 13 14 15');
-    break;
+    console.log(number++);
   case 10:
-    console.log('Numbers from ' + number + ' to 15 are 10 11 12 13 14 15');
-    break;
+    console.log(number++);
   case 11:
-    console.log('Numbers from ' + number + ' to 15 are 11 12 13 14 15');
-    break;
+    console.log(number++);
   case 12:
-    console.log('Numbers from ' + number + ' to 15 are 12 13 14 15');
-    break;
+    console.log(number++);
   case 13:
-    console.log('Numbers from ' + number + ' to 15 are 13 14 15');
-    break;
+    console.log(number++);
   case 14:
-    console.log('Numbers from ' + number + ' to 15 are 14 15');
-    break;
+    console.log(number++);
   case 15:
-    console.log('Numbers from ' + number + ' to 15 are 15');
-    break;
+    console.log(number++);
 }
