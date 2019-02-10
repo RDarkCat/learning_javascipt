@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+.content {
+    width: 500px;
+    border: 1px solid darkgray;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cartitem {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #eee;
+    margin: 1px 1px;
+}
