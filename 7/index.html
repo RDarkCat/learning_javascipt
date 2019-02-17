@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+</head>
+<body>
+
+    <!--
+    Это шаблон продукта для каталога
+    -->
+
+    <div id="template" style="display: none;">
+        <div class="item" id="catalog-item_template">
+            <p class="name"></p>
+            <p class="brand"></p>
+            <p class="price"></p>
+            <p class="quantity"></p>
+        </div>
+    </div>
+
+
+    <div id="template-cart" style="display: none;">
+        <div class="item-cart" id="cart-item_template">
+            <span class="name"></span> / <span class="brand"></span> / <span class="price"></span> / <span class="quantity"></span> / <button class="delete-item">Удалить</button>
+        </div>
+    </div>
+    <!--
+    Это каталог
+    -->
+    <h2>Каталог товаров</h2>
+    <div id="catalog-list" class="catalog-list"></div>
+
+    <strong id="content"></strong>
+
+    <div id="cart-order" class="details">
+        <p>Состав корзины</p>
+        <!--
+        Отображение корзины
+        -->
+        <div class="cart-render" id="cart-render"></div>
+
+    </div>
+
+    <div id="address" class="details roulette-none">
+        <p>Адрес доставки</p>
+        <label for="delivery-address-input"></label><input type="text" class="delivery-address-input" id="delivery-address-input">
+    </div>
+
+    <div id="comment" class="details roulette-none">
+        <p>Комментарий</p>
+        <label for="comment-input"></label><input type="text" class="comment-input" id="comment-input">
+    </div>
+
+    <button class="next" id="next">Next</button>
+
+    <script src="cart.js"></script>
+</body>
+</html>
